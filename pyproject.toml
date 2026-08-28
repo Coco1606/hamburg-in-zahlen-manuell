@@ -1,0 +1,22 @@
+[project]
+name = "hamburg-in-zahlen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Coco Thö", email = "70901055+Coco1606@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.5",
+]
+
+[project.scripts]
+hamburg-in-zahlen = "hamburg_in_zahlen:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
