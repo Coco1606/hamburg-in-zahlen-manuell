@@ -1,7 +1,7 @@
 [project]
 name = "hamburg-in-zahlen"
 version = "0.1.0"
-description = "Add your description here"
+description = "Instagram-Kacheln aus offenen Daten der Stadt Hamburg – ein Befund pro Kachel"
 readme = "README.md"
 authors = [
     { name = "Coco Thö", email = "70901055+Coco1606@users.noreply.github.com" }
