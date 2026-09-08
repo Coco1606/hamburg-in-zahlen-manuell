@@ -1,0 +1,51 @@
+﻿rang;empfaenger;traegerschaft;netto;anteil_prozent;rechtsform;beleg;notiz
+1;Hamburger Hochbahn Aktiengesellschaft;staedtisch;1556091000.0;59.48;AG;Beteiligungsbericht FHH;
+2;Hamburg Port Authority AöR;staedtisch;148371106.91;Mai 67;AöR;Rechtsform;
+3;Hamburgische Staatsoper Gesellschaft mit beschränkter Haftung;staedtisch;82076008.0;Mrz 14;GmbH;Beteiligungsbericht FHH;
+4;Universitätsklinikum Hamburg-Eppendorf;staedtisch;47534045.53;Jan 82;KöR;Rechtsform;Gliedkörperschaft der Universität Hamburg, Trägerschaft mittelbar bei der FHH
+5;Stiftung Hamburger Öffentliche Bücherhallen;nicht_staedtisch;37590946.0;Jan 44;Stiftung bürgerlichen Rechts;Rechtsform;gemeinnützig, überwiegend städtisch finanziert, nach Regel A nicht städtisch
+6;Neue Schauspielhaus-Gesellschaft mit beschränkter Haftung;staedtisch;36163999.0;Jan 38;GmbH;Beteiligungsbericht FHH;
+7;Thalia Theater Gesellschaft mit beschränkter Haftung;staedtisch;33515473.0;Jan 28;GmbH;Beteiligungsbericht FHH;
+8;Deutsche Forschungsgemeinschaft e.V.;nicht_staedtisch;29242800.0;01. Dez;e.V.;Rechtsform;
+9;Hamburger Sportbund e.V.;nicht_staedtisch;25340280.0;0.97;e.V.;Rechtsform;
+10;Historische Museen Hamburg;staedtisch;24566574.52;0.94;Stiftung öffentlichen Rechts;shmh.de/organisationsstruktur/;
+11;Museum für Kunst und Gewerbe Hamburg;staedtisch;22252625.74;0.85;Stiftung öffentlichen Rechts;Rechtsform;
+12;Hamburger Kunsthalle Stiftung öffentlichen Rechts;staedtisch;18328675.37;0.7;Stiftung öffentlichen Rechts;Rechtsform;
+13;Filmförderung Hamburg/Schleswig-Holstein GmbH (FFHSH);gemischt_oeffentlich;14823500.0;0.57;GmbH;Beteiligungsbericht FHH;
+14;Museum am Rothenbaum - Kulturen und Künste der Welt;staedtisch;12940566.97;0.49;Stiftung öffentlichen Rechts;Rechtsform;
+15;Hamburg Tourismus GmbH;gemischt_oeffentlich;12721000.0;0.49;GmbH;Beteiligungsbericht FHH;
+16;HVV Hamburger Verkehrsverbund Gesellschaft mbH;staedtisch;11938000.0;0.46;GmbH;Beteiligungsbericht FHH;
+17;Sprinkenhof GmbH;staedtisch;11910000.0;0.46;GmbH;Beteiligungsbericht FHH;
+18;Kampnagel Internationale Kulturfabrik Gesellschaft mit beschränkter Haftung;staedtisch;11646671.0;0.45;GmbH;Beteiligungsbericht FHH;
+19;Elbphilharmonie und Laeiszhalle Betriebsgesellschaft mbH;staedtisch;11338939.69;0.43;GmbH;Beteiligungsbericht FHH;
+20;Jugendhilfe e.V.;nicht_staedtisch;10122501.57;0.39;e.V.;Rechtsform;
+21;HHW Hamburger Hochbahn-Wache GmbH;staedtisch;9678700.0;0.37;GmbH;Beteiligungsbericht FHH;
+22;SAGA Siedlungs-Aktiengesellschaft Hamburg;staedtisch;8949210.81;0.34;AG;Beteiligungsbericht FHH;
+23;"""German Institute for Global and Area Studies"" (GIGA), Leibniz-Institut für Globale und Regionale Studien";nicht_staedtisch;8259100.0;0.32;Stiftung bürgerlichen Rechts;Rechtsform;
+24;Studierendenwerk Hamburg Anstalt des öffentlichen Rechts;staedtisch;7534310.88;0.29;AöR;Rechtsform;
+25;Hamburger Symphoniker e.V.;nicht_staedtisch;6965000.0;0.27;e.V.;Rechtsform;
+26;Deutsches Klimarechenzentrum GmbH;nicht_staedtisch;6750000.0;0.26;GmbH;nicht im Beteiligungsbericht FHH;
+27;Deichtorhallen Hamburg GmbH;staedtisch;6535775.48;0.25;GmbH;Beteiligungsbericht FHH;
+28;zwei P PLAN:PERSONAL gemeinnützige GmbH;nicht_staedtisch;6515396.63;0.25;gGmbH;nicht im Beteiligungsbericht FHH;
+29;NMS New Mobility Solutions Hamburg GmbH;staedtisch;6470281.0;0.25;GmbH;Beteiligungsbericht FHH;
+30;Basis & Woge e.V.;nicht_staedtisch;6288759.97;0.24;e.V.;Rechtsform;
+31;HIW Hamburg Invest Wirtschaftsförderungsgesellschaft mbH;gemischt_oeffentlich;6260000.0;0.24;GmbH;Beteiligungsbericht FHH;
+32;HamburgMusik gGmbH;staedtisch;6000000.0;0.23;gGmbH;Beteiligungsbericht FHH;
+33;Hamburg Kreativ GmbH;staedtisch;5655030.0;0.22;GmbH;Beteiligungsbericht FHH;
+34;Handwerkskammer Hamburg;nicht_staedtisch;5539677.08;0.21;KöR;Rechtsform;Selbstverwaltung der Wirtschaft, FHH nur Rechtsaufsicht, nach Regel A nicht städtisch
+35;Vereinsregister ZUW-2025-00367;nicht_staedtisch;5500290.66;0.21;e.V. (aus dem Feldwert abgeleitet);Feldwert im Transparenzportal;"Träger im Transparenzportal nicht genannt, Feld enthält ""Vereinsregister"". Beide Einträge zusammen 0,34 % der Fördersumme."
+36;Verband Kinder- und Jugendarbeit Hamburg e.V.;nicht_staedtisch;5115780.5;0.2;e.V.;Rechtsform;
+37;Hamburg Marketing GmbH;staedtisch;5088610.0;0.19;GmbH;Beteiligungsbericht FHH;
+38;Archäologisches Museum Hamburg und Stadtmuseum Harburg;staedtisch;4500164.43;0.17;Stiftung öffentlichen Rechts;Rechtsform;
+39;hamburger arbeit GmbH;staedtisch;4157077.97;0.16;GmbH;Beteiligungsbericht FHH;
+40;Stiftung Hamburger Gedenkstätten und Lernorte zur Erinnerung an die Opfer der NS-Verbrechen;staedtisch;4008000.0;0.15;Stiftung öffentlichen Rechts;Rechtsform;selbstständige, rechtsfähige Stiftung des öffentlichen Rechts mit Sitz in Hamburg
+41;Therapiehilfe gemeinnützige GmbH;nicht_staedtisch;3992852.25;0.15;gGmbH;nicht im Beteiligungsbericht FHH;
+42;Der Kinderschutzbund Landesverband Hamburg e.V.;nicht_staedtisch;3773532.64;0.14;e.V.;Rechtsform;
+44;Hamburger Fußball-Verband e.V.;nicht_staedtisch;3735000.0;0.14;e.V.;Rechtsform;
+45;"""Sprungbrett e.V.""";nicht_staedtisch;3731645.57;0.14;e.V.;Rechtsform;
+46;Elbkinder Vereinigung Hamburger Kitas gGmbH;staedtisch;3690210.43;0.14;gGmbH;Beteiligungsbericht FHH;
+47;STÄITSCH Theaterbetriebsgesellschaft mbH;nicht_staedtisch;3605000.0;0.14;GmbH;nicht im Beteiligungsbericht FHH;
+48;Vereinsregister ZUW-2025-00986;nicht_staedtisch;3500000.0;0.13;e.V. (aus dem Feldwert abgeleitet);Feldwert im Transparenzportal;"Träger im Transparenzportal nicht genannt, Feld enthält ""Vereinsregister"". Beide Einträge zusammen 0,34 % der Fördersumme."
+49;Arbeiterwohlfahrt Landesverband Hamburg e.V.;nicht_staedtisch;3495117.46;0.13;e.V.;Rechtsform;
+50;Hamburg Innovation GmbH;nicht_staedtisch;3459529.96;0.13;GmbH;nicht im Beteiligungsbericht FHH;
+51;Gsm GmbH;nicht_staedtisch;3389114.62;0.13;GmbH;nicht im Beteiligungsbericht FHH;

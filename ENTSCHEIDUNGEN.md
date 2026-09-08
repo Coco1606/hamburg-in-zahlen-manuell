@@ -150,6 +150,81 @@ funktioniert, weil das Projekt einmal auf einem frischen Rechner aufgesetzt wurd
 
 ---
 
+## 6. Regel für die Trägerschaft (Regel A) und die Belege
+
+### Die Regel
+
+> Städtisch ist, wer der FHH mehrheitlich gehört, oder wer eine Anstalt, Körperschaft oder
+> Stiftung öffentlichen Rechts ist, deren Träger die FHH oder eine ihrer Körperschaften ist.
+> Selbstverwaltungskörperschaften wie Kammern zählen nicht, auch wenn sie öffentlich-rechtlich
+> sind.
+
+Die Regel hat zwei Äste. Bei **öffentlich-rechtlichen** Formen entscheidet die Trägerschaft, bei
+**privatrechtlichen** Formen die Beteiligung. Verworfen wurden eine steuerungsrechtliche Regel
+(Aufsichtsrat mehrheitlich FHH) als pro Fall zu aufwendig und eine zuwendungsrechtliche
+(„Konzern Stadt") als zu unscharf.
+
+### Die Gegenprobe
+
+Alle 50 Träger wurden mit ihrer Rechtsform erfasst (`data/traeger_top50.csv`) und die Einstufung
+je Rechtsform gegengeprüft:
+
+| Rechtsform | gemischt | nicht städtisch | städtisch |
+|---|---|---|---|
+| AG | 0 | 0 | 2 |
+| AöR | 0 | 0 | 2 |
+| KöR | 0 | 1 | 1 |
+| Stiftung öffentlichen Rechts | 0 | 0 | 6 |
+| Stiftung bürgerlichen Rechts | 0 | 2 | 0 |
+| e.V. | 0 | 12 | 0 |
+| GmbH | 3 | 4 | 13 |
+| gGmbH | 0 | 2 | 2 |
+
+Eindeutig sind alle öffentlich-rechtlichen Formen und die Vereine. Uneindeutig sind `GmbH`,
+`gGmbH` und `KöR`, und zwar zu Recht: Eine GmbH sagt nichts darüber, wem sie gehört. Der Fall
+`KöR` (UKE städtisch, Handwerkskammer nicht) ist derselbe Mechanismus eine Ebene tiefer und in
+den Notizen der beiden Zeilen begründet.
+
+### Belege: bewusst ohne Seitenzahlen
+
+Eingetragen ist die Art des Nachweises, nicht die Fundstelle:
+
+| Beleg | Zeilen |
+|---|---|
+| Rechtsform (öffentlich-rechtlich oder e.V.) | 21 |
+| Beteiligungsbericht FHH | 20 |
+| nicht im Beteiligungsbericht FHH | 6 |
+| Feldwert im Transparenzportal | 2 |
+| shmh.de/organisationsstruktur/ | 1 |
+
+Die Prüfung gegen den Beteiligungsbericht hat am 05.09. stattgefunden, seitengenaue Fundstellen
+wurden dabei nicht mitgeschrieben. Sie nachzutragen hätte den Nachmittag gekostet, an dem die
+Kachel entstehen musste. Für eine Veröffentlichung wären sie nachzuholen, für ein
+Portfolio-Stück ist die Art des Nachweises ausreichend.
+
+### Zwei Träger ohne Namen
+
+Das Transparenzportal nennt in zwei Fällen statt des Trägers nur „Vereinsregister". Beide sind
+als `e.V. (aus dem Feldwert abgeleitet)` geführt.
+
+| | |
+|---|---|
+| Rang 35, ZUW-2025-00367 | 5.500.290,66 € = 0,21 % |
+| Rang 48, ZUW-2025-00986 | 3.500.000,00 € = 0,13 % |
+| zusammen | **0,34 %** |
+
+Selbst wenn beide städtisch wären, ginge die Kachelzahl von 80,31 % auf 80,65 %. Statt zu raten
+ist die Größe des Nichtwissens beziffert.
+
+### Offen: die dritte Kategorie
+
+`gemischt_oeffentlich` ist dreimal vergeben (FFHSH, Hamburg Tourismus, HIW). Was sie von
+„städtisch" unterscheidet, ist noch nicht definiert.
+
+*(Satz von mir zu formulieren)*
+
+---
+
 ## Noch zu dokumentieren (Donnerstag)
 
 - [ ] Dedup pro Vorgang statt Summe über alle Zeilen
