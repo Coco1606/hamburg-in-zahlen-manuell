@@ -65,4 +65,61 @@ def rendern(befund, pfad):
 
 
 
+NDR_ROT = "#E1051E"
+NDR_BLAU = "#14235A"
+WEISS = "#ffffff"
+SCHRIFT = "Arial Narrow"
+NDR_SERIE = [NDR_ROT, NDR_BLAU, "#9aa3b8"]
 
+
+def rendern_ndr(befund, pfad, kicker="Hamburg in Zahlen:"):
+    hoehe = 1350
+    fig = plt.figure(figsize=(GROESSE / DPI, hoehe / DPI),
+                     dpi=DPI, facecolor=WEISS)
+
+    kasten = dict(edgecolor="none", pad=9)
+
+    fig.text(0.05, 0.945, kicker, color=WEISS, fontsize=30,
+             fontweight="bold", family=SCHRIFT, va="top",
+             bbox=dict(facecolor=NDR_BLAU, **kasten))
+
+    y = 0.885
+    for zeile in textwrap.wrap(befund.ueberschrift.upper(), 24):
+        fig.text(0.05, y, zeile, color=WEISS, fontsize=46,
+                 fontweight="bold", family=SCHRIFT, va="top",
+                 bbox=dict(facecolor=NDR_ROT, **kasten))
+        y -= 0.068
+
+    fig.text(0.05, 0.58, befund.kernzahl, color=NDR_ROT, fontsize=150,
+             fontweight="bold", family=SCHRIFT, va="center")
+
+    fig.text(0.05, 0.45, textwrap.fill(befund.erlaeuterung, 52),
+             color=NDR_BLAU, fontsize=26, family=SCHRIFT,
+             va="top", linespacing=1.35)
+
+    ax = fig.add_axes([0.05, 0.30, 0.90, 0.035])
+    links = 0.0
+    for i, (label, wert) in enumerate(befund.reihe):
+        ax.barh(0, wert - 0.4, left=links, height=1, color=NDR_SERIE[i])
+        links += wert
+    ax.set_xlim(0, 100)
+    ax.axis("off")
+
+    for i, (label, wert) in enumerate(befund.reihe):
+        x = 0.05 + i * 0.31
+        fig.add_artist(Rectangle((x, 0.248), 0.016, 0.013,
+                                 color=NDR_SERIE[i]))
+        fig.text(x + 0.025, 0.254, f"{label}  {prozent(wert)}",
+                 color=NDR_BLAU, fontsize=22, family=SCHRIFT,
+                 fontweight="bold", va="center")
+
+    fig.text(0.05, 0.115, befund.quelle, color=NDR_BLAU,
+             fontsize=17, family=SCHRIFT)
+
+    fig.add_artist(Rectangle((0.78, 0.04), 0.17, 0.085, color=NDR_ROT))
+    fig.text(0.865, 0.082, "NDR HH", color=WEISS, fontsize=34,
+             fontweight="bold", family=SCHRIFT, ha="center", va="center")
+
+    fig.savefig(pfad, dpi=DPI, facecolor=WEISS)
+    plt.close(fig)
+    return pfad
