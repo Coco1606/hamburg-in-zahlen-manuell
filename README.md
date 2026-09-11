@@ -29,11 +29,11 @@ Ergebnis 80 bleiben bei der Stadt
 
 - a. Letzter Bescheid je Fall: Jede Zeile enthält den Gesamtstand, eine Summe über alle Zeilen würde mehrfach zählen. Gleichstand am selben Tag: 154 Fälle, 32 mit abweichenden Beträgen, davon 1 im 2025-Datensatz mit 13.425 € (0,0005 %). (Entscheidungsdatei Nr. 3)
 - b. Erstbescheid-Jahr statt Zuwendungszeitraum: Deshalb „bewilligt 2025“, nie „ausgegeben 2025“.
-- c. Rückforderungen: Leer heißt „noch nicht festgesetzt“, gerechnet als 0. Für 2025 sind 94,9 % leer und es gibt 0 € Rückforderungen. Über alle Jahre 93 Mio €, zu 98 % aus 2015–2022. Die alte Angabe „40 %“ war falsch (22,8 / 30,3 / 94,9 %). ⚠ Die 0 € und die Verteilung nach Jahren fehlen noch als Zelle im Notebook.
+- c. Rückforderungen: Leer heißt „noch nicht festgesetzt“, gerechnet als 0. Für 2025 sind 94,9 % leer und es gibt 0 € Rückforderungen. Über alle Jahre 93 Mio €, zu 98 % aus 2015–2022. Die alte Angabe „40 %“ war falsch (22,8 / 30,3 / 94,9 %). Die 0 € und die Verteilung nach Jahren fehlen noch als Zelle im Notebook.
 - d. Vereinsregister: 5 Fälle (nicht 2), 9,4 Mio €, 0,36 %. Jeder bekommt seine INEZ-Nummer und bleibt einzeln. Die zwei großen stehen auf Rang 35 und 48 (0,34 %).
 - e. Schreibweisen: Schlüssel = klein und nur a-z0-9. 114 Namen in 53 Gruppen, 1.974 → 1.913 Empfänger. Angezeigt wird die Schreibweise mit der höchsten Summe. Verworfen: die längste Schreibweise, weil die Trägerliste sie nicht mehr gefunden hätte. Die Anteile bleiben gleich. Schwächen: Umlaute fallen weg, „AG“ und „Aktiengesellschaft“ werden nicht zusammengeführt (für die 10 größten städtischen Empfänger geprüft). (Entscheidungsdatei Nr. 1)
 - f. Regel A, städtisch: zwei Äste, bei privatrechtlichen Formen zählt die Beteiligung, bei öffentlich-rechtlichen der Träger. Kammern zählen nicht. Verworfen: Aufsichtsrat (zu aufwendig), „Konzern Stadt“ (zu unscharf). Gegenprobe: crosstab Rechtsform × Einstufung. (Nr. 6)
-- g. Nur Top 50 geprüft: Der Rest zählt als frei, also 80,3 % = Untergrenze und 18,4 % = Obergrenze. ⚠ Wie viel Geld auf die Top 50 entfällt, ist im Notebook noch nicht berechnet.
+- g. Nur Top 50 geprüft: Der Rest zählt als frei, also 80,3 % = Untergrenze und 18,4 % = Obergrenze. Wie viel Geld auf die Top 50 entfällt, ist im Notebook noch nicht berechnet.
 - h. Belege ohne Seitenzahlen (Beteiligungsbericht): bewusst so, für eine Veröffentlichung nachzuholen.
 
 5. Grenzen und Offenes
